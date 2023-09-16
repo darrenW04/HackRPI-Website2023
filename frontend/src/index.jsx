@@ -8,6 +8,8 @@ import AboutPage from './Pages/AboutPage/AboutPage.jsx';
 import Footer from './Components/Footer/Footer.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
+import Timer from './Components/Timer/Timer.jsx';
+import MapsPage from './Pages/MapsPage/MapsPage.jsx';
 // import './fonts.css';
 
 function App() {
@@ -27,16 +29,21 @@ function App() {
 	}, []);
 
 	return (
+		// <div>
+		// 	<NavBar />
+		// 	{/* <LandingPage /> */}
+		// 	{/* currently swapped for testming, swap back before commiting */}
+		// 	{isMobile ? <LandingPageMobile /> : <LandingPage />}
+		// 	{/* re-add if timer is fixed for both mobile and web */}
+		// 	{/* <Timer /> */}
+		// 	<AboutPage />
+		// 	<FAQPage />
+		// 	<Footer />
+		// </div>
+
+		// All the content for maps page will go here
 		<div>
-			<NavBar />
-			{/* <LandingPage /> */}
-			{/* currently swapped for testming, swap back before commiting */}
-			{isMobile ? <LandingPageMobile /> : <LandingPage />}
-			{/* re-add if timer is fixed for both mobile and web */}
-			{/* <Timer /> */}
-			<AboutPage />
-			<FAQPage />
-			<Footer />
+			<MapsPage/>
 		</div>
 	);
 }

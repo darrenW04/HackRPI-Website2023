@@ -15,6 +15,9 @@ const MainHall = () => {
     return ( 
         <div id="mainhall">
             <h1>Main Hall Map</h1>
+            <ul>
+                <li><p>(instructions if necassary)</p></li>
+            </ul>
             {/* Apply the inline CSS */}
             <img src={mainhall} alt="Main Hall Map" style={imageStyle} />
         </div>
@@ -25,6 +28,9 @@ const WorkShopRooms = () => {
     return ( 
         <div id="workshoprooms">
             <h1>Workshop Room Map</h1>
+            <ul>
+                <li><p>(instructions if necassary)</p></li>
+            </ul>
             {/* Apply the inline CSS */}
             <img src={workshoproomsImg} alt="Main Hall Map" style={imageStyle} />
         </div>
@@ -35,6 +41,9 @@ const Sponsors = () => {
     return ( 
         <div id="sponsors">
             <h1>Sponsors Map</h1>
+            <ul>
+                <li><p>(instructions if necassary)</p></li>
+            </ul>
             {/* Apply the inline CSS */}
             <img src={sponsorsImg} alt="Sponsors Map" style={imageStyle} />
         </div>
@@ -45,6 +54,9 @@ const FoodAreas = () => {
     return ( 
         <div id="foodarea">
             <h1>Food Map</h1>
+            <ul>
+                <li><p>(instructions if necassary)</p></li>
+            </ul>
             {/* Apply the inline CSS */}
             <img src={foodareaImg} alt="Food Map" style={imageStyle} />
         </div>
@@ -55,6 +67,9 @@ const Restrooms = () => {
     return ( 
         <div id="restrooms">
             <h1>Restrooms Map</h1>
+            <ul>
+                <li><p>(instructions if necassary)</p></li>
+            </ul>
             {/* Apply the inline CSS */}
             <img src={restroomsImg} alt="Restrooms Map" style={imageStyle} />
         </div>
